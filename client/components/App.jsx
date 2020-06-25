@@ -16,8 +16,8 @@ class App extends React.Component {
       <>
         <NavWrap />
         <Paralax />
-    app
-    <div id="pagecontent">test
+    
+    <div id="pagecontent">
         <Router>
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/about" component={About} />

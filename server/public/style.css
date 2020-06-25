@@ -1,18 +1,23 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(191, 225, 255);
     margin: 0px;
     height: 4000px;
     font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
 }
+#pagecontent {
+    
+}
 .paralax {
-    background-color: red;
+    background-color: #004700;
     width: 100%;
     height: 600px;
+    margin-bottom: 20vh;
 }
 
 .hamburger {
     /* background-color: blue; */
+    cursor: pointer;
     border-radius: 2vw;
     width: 4vw;
     height: 4vw;
@@ -27,6 +32,7 @@ body {
     position: fixed;
     top: 0vw;
     right: 0vw;
+    z-index: 1;
 }
 .navContent {
     /* background-color: blue; */
@@ -35,8 +41,9 @@ body {
     height: 100vh;
 }
 .navContent img {
+    margin-top: 0.75vw;
+    margin-right: 0.75vw;
    
-    margin: 0.75vw;
     float: right;
 }
 ul {
@@ -57,7 +64,7 @@ ul {
         right: 0px;
         width: 100%;
         height: 100%;
-        clip-path: circle(4vh at 100% 0%);
+        clip-path: circle(4vh at 93% 2.5%);
         
     }
     
@@ -104,7 +111,7 @@ ul {
         right: 0px;
         width: 100%;
         height: 100%;
-        clip-path: circle(4vh at 100% 0%);
+        clip-path: circle(0vh at 93% 2.5%);
         
     }
   }
@@ -169,11 +176,34 @@ a {
     margin-top: 70%;
 }
 .closebutton {
-
+cursor: pointer;
 margin-top: 0px;
 position: absolute;
 right: 0vw;
 top: 0vw;
 width: 3.2vw;
 height: 3.2vw;
+}
+.showcase {
+    display: block;
+    position: relative;
+    margin-bottom: -20vh;
+}
+.display {
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+    display: block;
+}
+.title {
+    background-color: blue;
+    width: 65vw;
+    height: 10vh;
+    display: block;
+}
+.text {
+    background-color: yellow;
+    width: 40vw;
+    height: 50vh;
+    display: block;
 }
