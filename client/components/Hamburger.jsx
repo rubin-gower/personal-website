@@ -9,11 +9,11 @@ class Hamburger extends React.Component {
     render() {
         return (
             <>
-                <a href="">
+                
                     <div className="hamburger">
-                        <img src="./images/hbIcon.png" alt="hello" />
+                        <img src="./images/hbIcon.png" alt="Nav Menu" />
                     </div>
-                </a>
+                
             </>
         )
     }

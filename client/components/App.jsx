@@ -2,12 +2,12 @@ import React from 'react'
 import { HashRouter as Router, Route, Link , Redirect} from 'react-router-dom'
 
 import Paralax from "./Paralax"
-import HamBurger from "./Hamburger"
+import NavWrap from "./NavWrap"
 
 const App = () => {
   return (
     <>
-    <HamBurger/>
+    <NavWrap/>
     <Paralax/>
     app
     
