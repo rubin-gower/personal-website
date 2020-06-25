@@ -1,0 +1,25 @@
+body {
+    background-color: aliceblue;
+    margin: 0px;
+    height: 4000px;
+}
+.paralax {
+    background-color: red;
+    width: 100%;
+    height: 600px;
+   
+}
+.hamburger {
+    width: 4vw;
+    height: 4vw;
+    position: fixed;
+    top: 0.5vw;
+    right: 0.5vw;
+    /* background-image: url("./images/hbIcon.png"); */
+    background-size: contain;
+}
+.hamburger img {
+    width: 3vw;
+    height: 3vw;
+    margin: 0.5vw;
+}
