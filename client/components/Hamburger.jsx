@@ -9,8 +9,8 @@ class Hamburger extends React.Component {
     render() {
         return (
             <>
-                
-                    <div className="hamburger">
+                    
+                    <div className="hamburger" onClick={this.props.menumode}>
                         <img src="./images/hbIcon.png" alt="Nav Menu" />
                     </div>
                 

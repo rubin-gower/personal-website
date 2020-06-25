@@ -9,7 +9,7 @@ class NavWrap extends React.Component {
         mode: true
     }
     changemode = () => {
-        console.log("changing mode")
+       
         this.setState ({
             mode: !this.state.mode
         })
@@ -17,9 +17,9 @@ class NavWrap extends React.Component {
     render() {
         return (
             <>
-            <div className="wrapper" onClick={this.changemode}>
+            <div className="wrapper" >
                 {
-                    this.state.mode ? <Hamburger/> : <Navigation/>
+                    this.state.mode ? <Hamburger menumode={this.changemode}/> : <Navigation menumode={this.changemode}/>
                 }
              
              
