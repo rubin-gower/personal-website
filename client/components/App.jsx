@@ -6,6 +6,7 @@ import NavWrap from "./NavWrap"
 import Projects from "./pages/Projects"
 import About from "./pages/About"
 import APIs from "./pages/APIs"
+import NoPage from "./NoPage"
 
 class App extends React.Component {
   state = {
@@ -19,10 +20,11 @@ class App extends React.Component {
     
     <div id="pagecontent">
         <Router>
+          <Route exact path="/"><Redirect to="/projects" /></Route>
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/about" component={About} />
           <Route exact path="/apis" component={APIs} />
-          
+          {/* <Route path='*' exact={true} component={NoPage} /> */}
           
          
         </Router>

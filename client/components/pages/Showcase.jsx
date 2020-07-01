@@ -5,7 +5,8 @@ class Showcase extends React.Component {
     state = {
         style: {
             float: this.props.type,
-            textalign:  this.props.type
+            textAlign:  this.props.type,
+           
         }
     }
 
@@ -15,7 +16,9 @@ class Showcase extends React.Component {
                 showcase
                 <div className="showcase" style={this.state.style}>
                     <div className="display" style={this.state.style}>imgs</div>
-                    <div className="title" style={this.state.style}>title</div>
+                    <div className="title" style={this.state.style}>
+                        <div class="titletext">title</div>
+                    </div>
                     <div className="text" style={this.state.style}>about</div>
 
                 </div>

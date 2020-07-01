@@ -11,7 +11,7 @@ class Hamburger extends React.Component {
             <>
                     
                     <div className="hamburger" onClick={this.props.menumode}>
-                        <img src="./images/hbIcon.png" alt="Nav Menu" />
+                        <img src="./images/icons/hbIcon.png" alt="Nav Menu" draggable="false"/>
                     </div>
                 
             </>
